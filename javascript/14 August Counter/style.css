@@ -1,0 +1,72 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    background-image: url(2021-08_pakistan-day_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countdown-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 25px;
+    color: #c09b92;
+}
+
+h1 {
+    font-size: 70px;
+    color: #c09b92;
+}
+
+.countdown-boxes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #333;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+
+.box {
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #dbdada;
+    border: 1px solid #dbdada;
+    border-radius: 5px;
+}
+
+.box span {
+    font-size: 48px;
+    font-weight: bold;
+    color: #15381a;
+}
+
+.box label {
+    font-size: 18px;
+    color: #15381a;
+}
+
+.days {
+    background-color: #c09b92;
+    color: #fff;
+}
+
+.hours {
+    background-color: #c09b92;
+    color: #fff;
+}
+
+.minutes {
+    background-color: #c09b92;
+    color: #fff;
+}
+
+.seconds {
+    background-color: #c09b92;
+    color: #fff;
+}
