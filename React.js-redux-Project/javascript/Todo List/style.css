@@ -1,0 +1,134 @@
+html {
+    font: 300 1.2rem/1.5 'Segoe UI';
+    /* Light grey background for a clean look */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+}
+
+h1 {
+    margin: 1.5rem 0;
+    /* Added margin for spacing */
+    color: #004085;
+    /* Darker blue for better readability */
+    text-align: center;
+    /* Center the heading */
+    font-size: 2rem;
+    /* Larger font size for prominence */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center the content horizontally */
+    width: 100%;
+    max-width: 600px;
+    /* Limit the width for better readability */
+}
+
+input[type="text"],
+input[type="number"] {
+    font: inherit;
+    border: 2px solid #ced4da;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    /* Set max width for input fields */
+    margin-bottom: 1rem;
+    /* Space between input field and button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #0056b3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    background: linear-gradient(145deg, #0069d9, #0056b3);
+    /* Gradient background for a 3D effect */
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+    transition: backgrond 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    margin-top: 1rem;
+    /* Space above the button */
+}
+
+button:hover {
+    background: linear-gradient(145deg, #0056b3, #004494);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), inset 0 -3px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    background: linear-gradient(145deg, #004494, #003d7a);
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), inset 0 -1px 3px rgba(0, 0, 0, 0.2);
+}
+
+li {
+    margin: 0.5rem 0;
+    /* Reduced margin for a tighter layout */
+    padding: 12px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    max-width: 600px;
+    /* Limit the width for list items */
+}
+
+li:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+li::marker {
+    font-size: 1.2rem;
+    color: #0056b3;
+}
+
+li * {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+li p {
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+[contenteditable] {
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffd700;
+    /* Changed to a brighter gold for better contrast */
+    border-radius: 4px;
+    padding: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+}
+
+.hide {
+    display: none;
+}
