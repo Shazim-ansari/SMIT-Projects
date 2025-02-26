@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* h1{
+  justify-content: space-evenly;
+} */
+
+:root {
+  /* font- families  */
+  --primary-font: 'General Sans', sans-serif;
+  --secondary-font: 'Quicksand', sans-serif;
+
+  /* color palette  */
+  --primary-color: #EDE0D4;
+  --secondary-color: #DDB892;
+  --third-color: #7F5539;
+  --fourth-color: #371406;
+
+  --subtle-color-1: #ffffff;
+  --subtle-color-2: #000000;
+
+}
+
+body{
+overflow-x: hidden;
+}
+
+.exbtn:hover{
+  border: 1px solid #371406;
+}
+
+.logbtn1:hover{
+    border:  1px solid #371406;
+}
+
+.logbtn2{
+  border: 1px solid #371406;
+}
+
+.bro{
+  border: 1px solid #dbd5d2;
+}
+
+.m{
+  margin-top: -100px;
+ 
+}
+
+/* .container{
+  width: 100%;
+  height: 60px;
+  background-color: red;
+} */
+
+
+
+
+
+
